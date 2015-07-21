@@ -86,22 +86,28 @@ a:active {
 }
 
 @media screen and (min-width: 400px) {
-    body {
+    header{
         font-size: 30px;
+    }
+    .company{
+        font-size: 20px;
     }
 }
 
 @media screen and (min-width: 700px) {
-    body {
+    header{
         font-size: 40px;
+    }
+    .company{
+        font-size: 30px;
     }
 }
 
 @media screen and (min-width: 1000px) {
-    body {
+    header{
         font-size: 50px;
     }
-    #searchField{
-        font-size: 70px;
+    .company{
+        font-size: 35px;
     }
 }
