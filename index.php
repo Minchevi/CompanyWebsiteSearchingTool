@@ -1,6 +1,3 @@
-<?php include 'php/getDataFromServer.php';?>
-<?php include 'php/postData.php';?>
-
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -33,10 +30,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/libs/jquery.csv-0.71.min.js"></script>
-<script src="js/selectDataByInput.js"></script>
+<script src="js/submitInput.js"></script>
 <script src="js/displayData.js"></script>
-<script src="js/getData.js"></script>
-<script src="js/selectDataByInput.js"></script>
 
 </body>
 </html>
