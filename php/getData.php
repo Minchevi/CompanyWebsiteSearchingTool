@@ -33,4 +33,5 @@
 
     header('Content-Type: application/json');
     $json = json_encode($output);
+    echo $json;
     exit();
