@@ -9,9 +9,10 @@ $( "#searchTerm" ).keydown((function() {
             $.ajax({
                 type: 'POST',
                 url: ajaxURL,
-                data: {
-                    input: input
-                }
+                dataType: 'text',
+                data: input
+            }).done(function(result) {
+               displayData(result);
             });
 
             return false;

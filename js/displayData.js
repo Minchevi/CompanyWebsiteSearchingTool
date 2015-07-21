@@ -1,6 +1,5 @@
-function displayData(company) {
-    var companyName = company[1];
-    var companyLink = company[2];
+function displayData(companiesJson) {
+    // Asya should do it :D
 
-    $('#companies').append('<li class="company"><a href="'+companyLink+'" target="_blank">'+companyName+'</a></li>');
+    //$('#companies').append('<li class="company"><a href="'+companyLink+'" target="_blank">'+companyName+'</a></li>');
 };
