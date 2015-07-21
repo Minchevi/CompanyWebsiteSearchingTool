@@ -1,7 +1,10 @@
 function displayData(companiesString) {
-    // Asya should do it :D
-    console.log(companiesString);
     var data = JSON.parse(companiesString);
-    console.log(data);
-    //$('#companies').append('<li class="company"><a href="'+companyLink+'" target="_blank">'+companyName+'</a></li>');
+    $(".company").remove();
+
+    data.forEach(function (company) {
+        if ($('.company').length < 10) {
+            $('#companies').append('<li class="company"><a href="' + company.website + '" target="_blank">' + company.name + '</a></li>');
+        }
+    });
 };

@@ -6,7 +6,6 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Companies</title>
     <script type="text/javascript">
-
         function stopRKey(evt) {
             var evt = (evt) ? evt : ((event) ? event : null);
             var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
@@ -32,6 +31,5 @@
 <script src="js/libs/jquery.csv-0.71.min.js"></script>
 <script src="js/submitInput.js"></script>
 <script src="js/displayData.js"></script>
-
 </body>
 </html>

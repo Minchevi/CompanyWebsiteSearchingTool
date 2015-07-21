@@ -1,5 +1,6 @@
 $( "#searchTerm" ).on('change keyup paste', function() {
     var value = $(this).val();
+
     if (value.length>2) {
         var ajaxURL = 'php/getData.php';
         $.ajax({
@@ -10,5 +11,7 @@ $( "#searchTerm" ).on('change keyup paste', function() {
         }).done(function(result) {
            displayData(result);
         });
+    } else {
+        $(".company").remove();
     }
 });
