@@ -1,0 +1,105 @@
+@import url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+.search {
+    width: 100%;
+    position: relative;
+}
+
+
+.searchTerm {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px solid #b2afc3;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.searchButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+header {
+    color: #fff;
+    margin:0 auto;
+    clear:left;
+    height:auto;
+    z-index: 0;
+    text-align:center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.company{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#companies{
+    background-color: #b2afc3;
+}
+
+#searchField{
+    margin: 0 auto;
+    width: 70%
+}
+
+ul, ul li {
+    margin: 2px;
+    padding: 2px;
+}
+
+ul{
+    border-radius: 5px;
+}
+
+form {
+    margin-bottom: 5px;
+}
+
+body {
+    font-family: Calibri;
+    background: -webkit-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* W3C */
+
+}
+
+/* unvisited link */
+a:link {
+    color: #1F1C2C;
+}
+
+/* visited link */
+a:visited {
+    color: #928DAB;
+}
+
+/* mouse over link */
+a:hover {
+    color: #A247AA;
+}
+
+/* selected link */
+a:active {
+    color: #C126A7;
+}
+
+
+@media only screen and (max-width : 540px)   {
+    .header{
+        font-size: 60px;
+    }
+}
